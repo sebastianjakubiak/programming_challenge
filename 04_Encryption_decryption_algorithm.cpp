@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-    cout << "Wybierz opcję: " << endl;
+    cout << "Wybierz opcję:" << endl;
     cout << "1. Zakodowanie" << endl;
     cout << "2. Odkodowanie" << endl;
     int wybor;
@@ -30,7 +30,8 @@ int main()
             for (int i=0; i<odkodowanie.length(); i++)
             {
                 int szyfr = odkodowanie[i] - 3;
-                cout << static_cast<char>(szyfr);}
+                cout << (char) szyfr;
+            }
             break;}
         default:{
             cout << "Spierdalaj :)";
