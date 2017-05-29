@@ -45,14 +45,13 @@ int main()
     nazwiska_zenskie[7] = "Winiecka";
     nazwiska_zenskie[8] = "Tarowska";
     nazwiska_zenskie[9] = "Grzeszowska";
-    int dupa = rand()%10;
-    
-    if (dupa%2!=0){
-        cout << imiona_meskie[dupa] << " ";
+    int cipa = rand()%10;
+    if (cipe%2!=0){
+        cout << imiona_meskie[cipa] << " ";
         cout << nazwiska_meskie[rand()%10];
     }
     else {
-        cout << imiona_zenskie[dupa] << " ";
+        cout << imiona_zenskie[cipa] << " ";
         cout << nazwiska_zenskie[rand()%10];
     }
 }
