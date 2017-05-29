@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-    cout << "Wybierz opcję:" << endl;
+    cout << "Wybierz opcję: " << endl;
     cout << "1. Zakodowanie" << endl;
     cout << "2. Odkodowanie" << endl;
     int wybor;
