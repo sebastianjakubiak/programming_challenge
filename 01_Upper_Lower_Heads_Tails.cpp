@@ -37,13 +37,13 @@ int main()
             switch (o){
             case 1:
                 {if (o==a) {
-                    cout << "Brawo kurwiu! Wygrałeś nic. Rzucać dalej?" << endl << "1. Tak, ale fajna gra!" << endl << "2. Nie, chuj w to" << endl << "Pomogę Ci, nie będę dalej rzuca. Nara";}
+                    cout << "Brawo kurwiu! Wygrałeś nic. Rzucać dalej?" << endl << "1. Tak, ale fajna gra!" << endl << "2. Nie, chuj w to" << endl << "Pomogę Ci, nie będę dalej rzucał. Nara";}
                     else cout << "nie";
                     break;
                 }
             case 2:
                 {{if (o==a) {
-                    cout << "Brawo kurwiu! Wygrałeś nic. Rzucać dalej?" << endl << "Pomogę Ci, nie będę dalej rzuca. Nara";}
+                    cout << "Brawo kurwiu! Wygrałeś nic. Rzucać dalej?" << endl << "Pomogę Ci, nie będę dalej rzucał. Nara";}
                 else cout << "nie";
                     break;
                 }
